@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">GerenciadorEstudo</string>
+    <string name="txtBegin">Gerencie seus estudos melhor...</string>
+    <string name="btnBegin">AGORA!!!</string>
+    <string name="txtTop">Você quer organizar um(a)...</string>
 </resources>

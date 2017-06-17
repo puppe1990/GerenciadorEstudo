@@ -7,12 +7,29 @@
     tools:context="com.puppe.matheus.gerenciadorestudo.MainActivity">
 
     <TextView
+        android:id="@+id/txtBegin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/txtBegin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <Button
+        android:id="@+id/btnBegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBegin"
+        android:layout_marginTop="48dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtBegin"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        android:onClick="onClickChangeScreen"/>
 
 </android.support.constraint.ConstraintLayout>
